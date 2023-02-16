@@ -1,6 +1,5 @@
 import { Inter } from '@next/font/google'
 import Joke from '@/components/Joke'
-import Link from 'next/link';
 import getRandomJoke from '@/libs/getRandomJoke';
 
 

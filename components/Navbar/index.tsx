@@ -15,7 +15,7 @@ export default function Navbar() {
             <h1 className={styles.logo}>Just Jokes <Laugh /> </h1>
             <ul className={styles.items}>
                 <NavItem href='/'>Home</NavItem>
-                <NavItem href='/'>Github</NavItem>
+                <NavItem href='https://github.com/iMADi-ARCH/Jokes'>Github</NavItem>
                 <NavItem href='/about'>About</NavItem>
             </ul>
         </nav>
