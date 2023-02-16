@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.loading {
+    /* position: absolute; */
+    /* bottom: -; */
+    width: 16px;
+    height: 16px;
+    background-color: white;
+    border-radius: 100%;
+    animation: boop 1s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes boop {
+    0% {
+        transform: translateX(-200%) scaleY(0.8);
+        opacity: 0;
+    }
+
+    50% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateX(200%) scaleY(0.8);
+        opacity: 0;
+    }
+}
